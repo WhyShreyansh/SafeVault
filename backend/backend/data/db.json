@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": "9211add9-9b89-452d-9e4b-29bd1d04d32d",
+      "name": "sonu mandal",
+      "email": "sonu.mandal.cs27@iilm.edu",
+      "password": "$2a$10$LbEt/Py7RRkElTUYZpQQYOfSEF60rua5o2Q01R7Tb/9HBjeMNRAQe",
+      "createdAt": "2026-03-17T05:59:03.819Z"
+    },
+    {
+      "id": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "name": "Sonu Mandal",
+      "email": "mandalsonu543@gmail.com",
+      "password": "$2a$10$YcvCEGHyTMJ8qhENXQb7quuepEXA7ZJiQICHb/Jcd4WpIQ9j3gRoC",
+      "createdAt": "2026-03-17T06:34:06.283Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "d3851590-4056-4068-b29d-2fcf924c9db6",
+      "userId": "9211add9-9b89-452d-9e4b-29bd1d04d32d",
+      "filename": "4f78de05-44c1-441b-9f19-1f16420a49fb-1773727423974.enc",
+      "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf",
+      "size": 2641571,
+      "uploadDate": "2026-03-17T06:03:43.990Z",
+      "version": 1,
+      "isDeleted": false,
+      "encrypted": true,
+      "hash": "e2a0a27c82957565daf8507c9dbb2183dd38da93ecf3cfabbb04e2875eae472d",
+      "iv": "de5714911a3781066927c1972c2b7f0c",
+      "mimeType": "application/pdf",
+      "isLatest": true,
+      "deletedAt": null
+    },
+    {
+      "id": "f231aed5-3773-4607-a50c-ef6b6040b5ad",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "filename": "e6dc94ba-851e-4bab-aee1-25b65e6a7f10-1773729303178.enc",
+      "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf",
+      "size": 2641571,
+      "uploadDate": "2026-03-17T06:35:03.228Z",
+      "version": 1,
+      "isDeleted": true,
+      "encrypted": true,
+      "hash": "e2a0a27c82957565daf8507c9dbb2183dd38da93ecf3cfabbb04e2875eae472d",
+      "iv": "0c964ab1470c97df194daf016af64bde",
+      "mimeType": "application/pdf",
+      "isLatest": false,
+      "deletedAt": "2026-03-17T06:35:39.969Z"
+    },
+    {
+      "id": "e07412be-a015-46cb-847f-ebd93a5091b3",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "filename": "5ae2a45b-ae96-4fcf-a8d8-3fa9dc14de83-1773729878492.enc",
+      "originalName": "resume.pdf",
+      "size": 86401,
+      "uploadDate": "2026-03-17T06:44:38.533Z",
+      "version": 1,
+      "isDeleted": true,
+      "encrypted": true,
+      "hash": "96481085fcd380a9658bd1b00ac3336988af1ec2f63dee4c6a3dad4140771f84",
+      "iv": "aae265c4692279d7b2988f091e28beca",
+      "mimeType": "application/pdf",
+      "isLatest": false,
+      "deletedAt": "2026-03-17T06:44:59.309Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "c38c8881-55b0-47a7-8650-4643c0d7bf6a",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "delete",
+      "message": "Soft-deleted resume.pdf v1",
+      "date": "2026-03-17T06:44:59.311Z",
+      "meta": {
+        "fileId": "e07412be-a015-46cb-847f-ebd93a5091b3",
+        "originalName": "resume.pdf"
+      }
+    },
+    {
+      "id": "6923bfb5-893e-4539-8778-d214b3a7a05f",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "encryption",
+      "message": "AES-256 encrypted resume.pdf",
+      "date": "2026-03-17T06:44:38.550Z",
+      "meta": {
+        "fileId": "e07412be-a015-46cb-847f-ebd93a5091b3",
+        "originalName": "resume.pdf"
+      }
+    },
+    {
+      "id": "c3a6758e-72a8-4b31-993e-5011b3169e43",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "upload",
+      "message": "Uploaded and encrypted resume.pdf v1",
+      "date": "2026-03-17T06:44:38.547Z",
+      "meta": {
+        "fileId": "e07412be-a015-46cb-847f-ebd93a5091b3",
+        "originalName": "resume.pdf"
+      }
+    },
+    {
+      "id": "e016110e-192b-4b14-9bc3-bbfa9652d1a0",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "delete",
+      "message": "Soft-deleted Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf v1",
+      "date": "2026-03-17T06:35:39.973Z",
+      "meta": {
+        "fileId": "f231aed5-3773-4607-a50c-ef6b6040b5ad",
+        "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf"
+      }
+    },
+    {
+      "id": "31bd3e5c-58fd-429c-bc8c-3f0be9fa6a5c",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "encryption",
+      "message": "AES-256 encrypted Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf",
+      "date": "2026-03-17T06:35:03.270Z",
+      "meta": {
+        "fileId": "f231aed5-3773-4607-a50c-ef6b6040b5ad",
+        "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf"
+      }
+    },
+    {
+      "id": "239b08b9-23c5-4691-acf7-7026d14c70eb",
+      "userId": "1eec2cf6-db09-48b8-9c03-f2a409d289d6",
+      "action": "upload",
+      "message": "Uploaded and encrypted Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf v1",
+      "date": "2026-03-17T06:35:03.267Z",
+      "meta": {
+        "fileId": "f231aed5-3773-4607-a50c-ef6b6040b5ad",
+        "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf"
+      }
+    },
+    {
+      "id": "31779387-df25-45a5-b8fe-cfff2cad74b3",
+      "userId": "9211add9-9b89-452d-9e4b-29bd1d04d32d",
+      "action": "upload",
+      "message": "Uploaded and encrypted Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf v1",
+      "date": "2026-03-17T06:03:44.009Z",
+      "meta": {
+        "fileId": "d3851590-4056-4068-b29d-2fcf924c9db6",
+        "originalName": "Arithmetic and Logical Ability_Class Sheets_Updated (1).pdf"
+      }
+    }
+  ]
+}
