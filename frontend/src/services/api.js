@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://safevault-540c.onrender.com';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('safevault_token');
