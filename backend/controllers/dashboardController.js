@@ -27,7 +27,7 @@ export const getDashboard = async (req, res) => {
       totalFiles,
       storageUsed,
       lastUpload,
-               recoveryCount,
+      recoveryCount,
       versionCount,
       backupSuccessRate: 99.8,
     });
