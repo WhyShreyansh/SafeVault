@@ -1,4 +1,4 @@
-export const getLogs = async (req, res) => {
+        export const getLogs = async (req, res) => {
   try {
     return res.json({ logs: [] });
   } catch (error) {
